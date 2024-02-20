@@ -5,30 +5,37 @@
 * Browsers: last 2 version
 */
 
-/* @font-face {
+/* 
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+@font-face {
     font-display: swap;
     font-family: "Barlow";
     font-style: normal;
     font-weight: 400;
-    src: url("./fonts/barlow-v12-latin-regular.woff2") format("woff2"),
-        url("./fonts/barlow-v12-latin-regular.woff") format("woff");
+    src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"),
+        url("../fonts/barlow-v12-latin-regular.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-family: "Barlow";
     font-style: normal;
     font-weight: 700;
-    src: url("./fonts/barlow-v12-latin-700.woff2") format("woff2"),
-        url("./fonts/barlow-v12-latin-700.woff") format("woff");
+    src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"),
+        url("../fonts/barlow-v12-latin-700.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    src: url("./fonts/fraunces-v31-latin-900.woff2") format("woff2"),
-        url("./fonts/fraunces-v31-latin-900.woff") format("woff");
-} */
+    src: url("../fonts/fraunces-v31-latin-900.woff2") format("woff2"),
+        url("../fonts/fraunces-v31-latin-900.woff") format("woff");
+}
 
 *,
 *::before,
@@ -40,8 +47,8 @@
 body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 100%;
     font-family: "Barlow", "Arial", sans-serif;
     background-color: #fefcf7;
@@ -61,8 +68,8 @@ img {
 
 .site-main {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 }
 
 .unscrollbody {
@@ -450,11 +457,11 @@ img {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding-bottom: 120px;
 }
 
@@ -575,7 +582,7 @@ img {
     font-weight: 900;
     line-height: 25px; /* 138.889% */
     -webkit-text-decoration-line: none;
-            text-decoration-line: none;
+    text-decoration-line: none;
     -webkit-transition: background-color 0.4s linear;
     transition: background-color 0.4s linear;
 }
@@ -601,11 +608,11 @@ img {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .site-footer__list {
@@ -631,7 +638,7 @@ img {
     -webkit-transition: color 0.4s linear;
     transition: color 0.4s linear;
     -webkit-text-decoration-line: none;
-            text-decoration-line: none;
+    text-decoration-line: none;
     text-align: center;
 }
 
@@ -644,11 +651,11 @@ img {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-column-gap: 24px;
-       -moz-column-gap: 24px;
-            column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -1077,8 +1084,8 @@ img {
         display: -ms-flexbox;
         display: flex;
         -webkit-column-gap: 33px;
-           -moz-column-gap: 33px;
-                column-gap: 33px;
+        -moz-column-gap: 33px;
+        column-gap: 33px;
         margin-top: 32px;
         margin-bottom: 65px;
     }
@@ -1136,11 +1143,11 @@ img {
 
     .work__box {
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
     }
 
     .work__list {
@@ -1149,8 +1156,8 @@ img {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         margin-bottom: 44px;
         padding-top: 79px;
         position: relative;
@@ -1245,14 +1252,14 @@ img {
     .site-footer__box {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 
     .site-footer__list {
